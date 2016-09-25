@@ -41,7 +41,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = NSURL(string:"http://192.168.1.10/WKWEBVIEW")
+        let url = NSURL(string:"https://rawgit.com/O-mkar/WKWebView-and-JavaScript-in-iOS-9-Example-/master/WEBPART/index.html")
         let req = NSURLRequest(URL:url!)
         self.webView!.loadRequest(req)
         
